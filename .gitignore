@@ -6,3 +6,6 @@ config.js
 # stays local-only, loaded into Supabase via the one-time import script.
 source/
 wordlist.csv
+
+.vercel
+.env*
