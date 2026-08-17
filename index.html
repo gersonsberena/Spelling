@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spelling Practice</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Spelling Practice</h1>
+
+    <section id="setup-screen" class="screen">
+      <label for="word-count">How many words today?</label>
+      <select id="word-count">
+        <option value="20" selected>20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+      </select>
+      <button id="start-btn">Start</button>
+      <p id="setup-error" class="error" hidden></p>
+    </section>
+
+    <section id="quiz-screen" class="screen" hidden>
+      <p class="progress"><span id="progress-current"></span> / <span id="progress-total"></span></p>
+
+      <button id="hear-word-btn" class="speak-btn">🔊 Hear the word</button>
+
+      <div class="info-panel">
+        <p><strong>Part of speech:</strong> <span id="part-of-speech"></span>
+          <button class="speak-btn small" data-speak-target="part-of-speech">🔊</button>
+        </p>
+        <p><strong>Definition:</strong> <span id="definition"></span>
+          <button class="speak-btn small" data-speak-target="definition">🔊</button>
+        </p>
+        <p><strong>Sentence:</strong> <span id="sentence"></span>
+          <button class="speak-btn small" data-speak-target="sentence">🔊</button>
+        </p>
+      </div>
+
+      <form id="answer-form" autocomplete="off">
+        <label for="answer-input">Type the word:</label>
+        <input id="answer-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" />
+      </form>
+
+      <p id="feedback" class="feedback" aria-live="polite"></p>
+      <button id="next-btn" hidden>Next word</button>
+    </section>
+
+    <section id="summary-screen" class="screen" hidden>
+      <h2>Session complete!</h2>
+      <p id="summary-score"></p>
+      <ul id="summary-list"></ul>
+      <button id="restart-btn">Practice again</button>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

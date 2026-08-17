@@ -1,0 +1,8 @@
+node_modules/
+config.js
+.env
+
+# Copyrighted spelling-bee source material and derived word list --
+# stays local-only, loaded into Supabase via the one-time import script.
+source/
+wordlist.csv
