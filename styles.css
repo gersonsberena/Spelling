@@ -114,23 +114,98 @@ button:hover {
   color: #d64545;
 }
 
-#summary-list {
+.note {
+  color: #5c6b7a;
+  font-size: 1rem;
+}
+
+.secondary-btn {
+  background: #e4e8f0;
+  color: #1f2933;
+}
+
+.secondary-btn:hover {
+  background: #d3d9e4;
+}
+
+button.small {
+  font-size: 1rem;
+  padding: 6px 14px;
+}
+
+.mode-toggle {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.mode-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1.05rem;
+  margin-bottom: 0;
+}
+
+.mode-option input {
+  width: auto;
+  margin: 0;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quiz-header .progress {
+  text-align: left;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 20px 0 8px;
+}
+
+.summary-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#summary-missed-list,
+#summary-correct-list,
+#history-list {
   list-style: none;
   padding: 0;
 }
 
-#summary-list li {
+#summary-missed-list li,
+#summary-correct-list li,
+#history-list li {
   padding: 8px 10px;
   border-bottom: 1px solid #e4e8f0;
   font-size: 1.1rem;
 }
 
-#summary-list li.correct::before {
+#summary-missed-list li::before {
+  content: "✘ ";
+  color: #d64545;
+}
+
+#summary-correct-list li::before {
   content: "✔ ";
   color: #1f9d55;
 }
 
-#summary-list li.incorrect::before {
-  content: "✘ ";
-  color: #d64545;
+#history-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+#history-list .history-date {
+  color: #5c6b7a;
 }
