@@ -12,6 +12,29 @@ roadmap.
 
 Start with [`docs/README.md`](docs/README.md).
 
+## Building the iOS app
+
+Development has started on the backend, which the iOS app depends on and which
+the roadmap puts on the critical path.
+
+```
+supabase/migrations/   multi-user schema with real row-level security
+supabase/local/        local Postgres harness that verifies it
+pipeline/              word enrichment, import, and TTS pre-generation
+```
+
+```sh
+npm install
+npm test                                    # pipeline logic
+npm run db:verify                           # rebuild schema + RLS suite (needs local Postgres)
+npm run words:import -- words.csv --out seed.sql
+npm run tts:plan
+```
+
+See [`supabase/README.md`](supabase/README.md) and
+[`pipeline/README.md`](pipeline/README.md). Copy `.env.example` to `.env` before
+running anything that touches a live service.
+
 ## The prototype
 
 A single-page web app that runs the core loop: it presents a word with its part
@@ -22,19 +45,20 @@ can be retested, and sessions are recorded to a history view.
 index.html      markup for the setup, quiz, summary, and history screens
 app.js          session logic, Supabase queries, speech synthesis
 styles.css      styling
-supabase/       schema and incremental migrations
+supabase/legacy/ the single-user schema it runs on
 scripts/        word import (CSV → Supabase) and config generation
 ```
 
 ### Running it locally
 
-1. Create a Supabase project and run `supabase/migration.sql` in the SQL editor.
+1. Create a Supabase project and run `supabase/legacy/migration.sql` in the SQL editor.
+   (The prototype runs on the legacy single-user schema, not `supabase/migrations/`.)
 2. Copy `config.example.js` to `config.js` and fill in the project URL and anon key.
 3. Import a word list:
 
    ```sh
    npm install
-   SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... npm run import-words
+   SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... npm run legacy:import-words
    ```
 
    Expects a `wordlist.csv` with columns `word`, `part_of_speech`, `definition`,
@@ -62,5 +86,5 @@ multi-user product:
 - Audio uses the browser's built-in `speechSynthesis`, not Cartesia
 - `grade_level` is filtered by a hardcoded constant rather than chosen by the user
 
-See [`docs/04-data-model.md`](docs/04-data-model.md) for the multi-user schema
-that replaces it.
+The replacement is in [`supabase/migrations/`](supabase/README.md); the reasoning
+is in [`docs/04-data-model.md`](docs/04-data-model.md).

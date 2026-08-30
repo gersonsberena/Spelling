@@ -4,7 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "import-words": "node scripts/import-words.mjs",
+    "test": "node --test \"pipeline/test/*.test.mjs\"",
+    "db:verify": "./supabase/local/verify.sh",
+    "words:import": "node pipeline/import.mjs",
+    "tts:plan": "node pipeline/tts/generate.mjs --plan",
+    "tts:apply": "node pipeline/tts/generate.mjs --apply",
+    "legacy:import-words": "node scripts/import-words.mjs",
     "build": "node scripts/generate-config.mjs",
     "serve": "npx serve ."
   },
