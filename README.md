@@ -20,20 +20,24 @@ the roadmap puts on the critical path.
 ```
 supabase/migrations/   multi-user schema with real row-level security
 supabase/local/        local Postgres harness that verifies it
-pipeline/              word enrichment, import, and TTS pre-generation
+pipeline/              word enrichment, import, TTS pre-generation, test vectors
+ios/SpellingCore/      Swift package: scheduler, grader, error classifier
 ```
 
 ```sh
 npm install
-npm test                                    # pipeline logic
+npm test                                    # pipeline + shared logic
 npm run db:verify                           # rebuild schema + RLS suite (needs local Postgres)
+npm run vectors                             # regenerate the Swift test vectors
 npm run words:import -- words.csv --out seed.sql
 npm run tts:plan
+
+cd ios/SpellingCore && swift test            # needs a Mac
 ```
 
-See [`supabase/README.md`](supabase/README.md) and
-[`pipeline/README.md`](pipeline/README.md). Copy `.env.example` to `.env` before
-running anything that touches a live service.
+See [`supabase/README.md`](supabase/README.md),
+[`pipeline/README.md`](pipeline/README.md), and [`ios/README.md`](ios/README.md).
+Copy `.env.example` to `.env` before running anything that touches a live service.
 
 ## The prototype
 

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test \"pipeline/test/*.test.mjs\"",
+    "vectors": "node pipeline/vectors.mjs",
     "db:verify": "./supabase/local/verify.sh",
     "words:import": "node pipeline/import.mjs",
     "tts:plan": "node pipeline/tts/generate.mjs --plan",
