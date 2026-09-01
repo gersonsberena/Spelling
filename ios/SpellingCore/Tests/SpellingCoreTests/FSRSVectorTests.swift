@@ -17,7 +17,7 @@ final class FSRSVectorTests: XCTestCase {
         let decay: Double
         let factor: Double
         let reference: [ReferenceCase]
-        let sequences: [Sequence]
+        let sequences: [ReviewSequence]
         let grades: [GradeCase]
         let mastery: [MasteryCase]
     }
@@ -32,7 +32,8 @@ final class FSRSVectorTests: XCTestCase {
         let elapsed: Double?
     }
 
-    struct Sequence: Decodable {
+    /// Named to avoid shadowing Swift's `Sequence` protocol.
+    struct ReviewSequence: Decodable {
         let name: String
         let steps: [Step]
 
