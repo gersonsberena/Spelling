@@ -1,0 +1,302 @@
+{
+ "_generated": "npm run vectors — do not edit by hand",
+ "cases": [
+  {
+   "target": "necessary",
+   "submitted": "necessary",
+   "context": {},
+   "correct": true,
+   "editDistance": 0,
+   "patterns": []
+  },
+  {
+   "target": "necessary",
+   "submitted": "necesary",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "double_consonant"
+   ]
+  },
+  {
+   "target": "accommodate",
+   "submitted": "acommodate",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "double_consonant"
+   ]
+  },
+  {
+   "target": "separate",
+   "submitted": "sepparate",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "double_consonant"
+   ]
+  },
+  {
+   "target": "separate",
+   "submitted": "seperate",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "vowel_substitution"
+   ]
+  },
+  {
+   "target": "running",
+   "submitted": "runing",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "double_consonant",
+    "suffix_doubling"
+   ]
+  },
+  {
+   "target": "beginning",
+   "submitted": "begining",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "double_consonant",
+    "suffix_doubling"
+   ]
+  },
+  {
+   "target": "friend",
+   "submitted": "freind",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "ie_ei",
+    "transposition"
+   ]
+  },
+  {
+   "target": "receive",
+   "submitted": "recieve",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "ie_ei",
+    "transposition"
+   ]
+  },
+  {
+   "target": "hope",
+   "submitted": "hop",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "silent_e"
+   ]
+  },
+  {
+   "target": "hoping",
+   "submitted": "hopeing",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "silent_e"
+   ]
+  },
+  {
+   "target": "babies",
+   "submitted": "babys",
+   "context": {},
+   "correct": false,
+   "editDistance": 2,
+   "patterns": [
+    "plural_rule"
+   ]
+  },
+  {
+   "target": "knives",
+   "submitted": "knifs",
+   "context": {},
+   "correct": false,
+   "editDistance": 2,
+   "patterns": [
+    "plural_rule"
+   ]
+  },
+  {
+   "target": "potatoes",
+   "submitted": "potatos",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "plural_rule"
+   ]
+  },
+  {
+   "target": "knife",
+   "submitted": "nife",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "silent_letter"
+   ]
+  },
+  {
+   "target": "wrist",
+   "submitted": "rist",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "silent_letter"
+   ]
+  },
+  {
+   "target": "thumb",
+   "submitted": "thum",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "silent_letter"
+   ]
+  },
+  {
+   "target": "misspell",
+   "submitted": "mispell",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "double_consonant",
+    "prefix"
+   ]
+  },
+  {
+   "target": "dissatisfied",
+   "submitted": "disatisfied",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "double_consonant",
+    "prefix"
+   ]
+  },
+  {
+   "target": "unnatural",
+   "submitted": "unatural",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "double_consonant",
+    "prefix"
+   ]
+  },
+  {
+   "target": "advice",
+   "submitted": "advise",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "consonant_substitution"
+   ]
+  },
+  {
+   "target": "phone",
+   "submitted": "fone",
+   "context": {},
+   "correct": false,
+   "editDistance": 2,
+   "patterns": [
+    "phonetic"
+   ]
+  },
+  {
+   "target": "there",
+   "submitted": "their",
+   "context": {
+    "homophones": [
+     "their",
+     "they're"
+    ]
+   },
+   "correct": false,
+   "editDistance": 2,
+   "patterns": [
+    "homophone"
+   ]
+  },
+  {
+   "target": "cat",
+   "submitted": "car",
+   "context": {
+    "latencyMs": 400,
+    "medianLatencyMs": 4000
+   },
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "typo"
+   ]
+  },
+  {
+   "target": "cat",
+   "submitted": "car",
+   "context": {
+    "latencyMs": 9000,
+    "medianLatencyMs": 4000
+   },
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "consonant_substitution"
+   ]
+  },
+  {
+   "target": "cat",
+   "submitted": "car",
+   "context": {},
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "consonant_substitution"
+   ]
+  },
+  {
+   "target": "cat",
+   "submitted": "cap",
+   "context": {
+    "latencyMs": 100,
+    "medianLatencyMs": 5000
+   },
+   "correct": false,
+   "editDistance": 1,
+   "patterns": [
+    "consonant_substitution"
+   ]
+  },
+  {
+   "target": "necessary",
+   "submitted": "  Necessary ",
+   "context": {},
+   "correct": true,
+   "editDistance": 0,
+   "patterns": []
+  }
+ ]
+}

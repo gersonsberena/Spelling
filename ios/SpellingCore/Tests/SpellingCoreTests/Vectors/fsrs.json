@@ -1,0 +1,1674 @@
+{
+ "_generated": "npm run vectors — do not edit by hand",
+ "decay": -0.1542,
+ "factor": 0.9803464944134797,
+ "reference": [
+  {
+   "fn": "initial_stability",
+   "rating": 1,
+   "v": 0.212
+  },
+  {
+   "fn": "initial_difficulty",
+   "rating": 1,
+   "v": 6.4133
+  },
+  {
+   "fn": "initial_stability",
+   "rating": 2,
+   "v": 1.2931
+  },
+  {
+   "fn": "initial_difficulty",
+   "rating": 2,
+   "v": 5.112170705601056
+  },
+  {
+   "fn": "initial_stability",
+   "rating": 3,
+   "v": 2.3065
+  },
+  {
+   "fn": "initial_difficulty",
+   "rating": 3,
+   "v": 2.118103970459016
+  },
+  {
+   "fn": "initial_stability",
+   "rating": 4,
+   "v": 8.2956
+  },
+  {
+   "fn": "initial_difficulty",
+   "rating": 4,
+   "v": 1
+  },
+  {
+   "fn": "retrievability",
+   "stability": 0.5,
+   "elapsed": 0,
+   "v": 1
+  },
+  {
+   "fn": "retrievability",
+   "stability": 0.5,
+   "elapsed": 1,
+   "v": 0.8458846451494336
+  },
+  {
+   "fn": "retrievability",
+   "stability": 0.5,
+   "elapsed": 7,
+   "v": 0.6605208790506878
+  },
+  {
+   "fn": "retrievability",
+   "stability": 0.5,
+   "elapsed": 30,
+   "v": 0.5321197762068469
+  },
+  {
+   "fn": "retrievability",
+   "stability": 0.5,
+   "elapsed": 365,
+   "v": 0.36283683465892747
+  },
+  {
+   "fn": "interval",
+   "stability": 0.5,
+   "v": 1
+  },
+  {
+   "fn": "retrievability",
+   "stability": 2,
+   "elapsed": 0,
+   "v": 1
+  },
+  {
+   "fn": "retrievability",
+   "stability": 2,
+   "elapsed": 1,
+   "v": 0.9403442888929227
+  },
+  {
+   "fn": "retrievability",
+   "stability": 2,
+   "elapsed": 7,
+   "v": 0.7948885022073404
+  },
+  {
+   "fn": "retrievability",
+   "stability": 2,
+   "elapsed": 30,
+   "v": 0.6539884942093884
+  },
+  {
+   "fn": "retrievability",
+   "stability": 2,
+   "elapsed": 365,
+   "v": 0.4490237038917271
+  },
+  {
+   "fn": "interval",
+   "stability": 2,
+   "v": 2
+  },
+  {
+   "fn": "retrievability",
+   "stability": 8.2956,
+   "elapsed": 0,
+   "v": 1
+  },
+  {
+   "fn": "retrievability",
+   "stability": 8.2956,
+   "elapsed": 1,
+   "v": 0.9829234388308534
+  },
+  {
+   "fn": "retrievability",
+   "stability": 8.2956,
+   "elapsed": 7,
+   "v": 0.9112367728465863
+  },
+  {
+   "fn": "retrievability",
+   "stability": 8.2956,
+   "elapsed": 30,
+   "v": 0.7917787593364196
+  },
+  {
+   "fn": "retrievability",
+   "stability": 8.2956,
+   "elapsed": 365,
+   "v": 0.5576673468369081
+  },
+  {
+   "fn": "interval",
+   "stability": 8.2956,
+   "v": 8
+  },
+  {
+   "fn": "retrievability",
+   "stability": 50,
+   "elapsed": 0,
+   "v": 1
+  },
+  {
+   "fn": "retrievability",
+   "stability": 50,
+   "elapsed": 1,
+   "v": 0.9970103472148596
+  },
+  {
+   "fn": "retrievability",
+   "stability": 50,
+   "elapsed": 7,
+   "v": 0.9803634263310375
+  },
+  {
+   "fn": "retrievability",
+   "stability": 50,
+   "elapsed": 30,
+   "v": 0.9311509409583194
+  },
+  {
+   "fn": "retrievability",
+   "stability": 50,
+   "elapsed": 365,
+   "v": 0.7235122127567452
+  },
+  {
+   "fn": "interval",
+   "stability": 50,
+   "v": 50
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 1,
+   "rating": 1,
+   "v": 7.0269895692968385
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 1,
+   "rating": 1,
+   "v": 0.3550402910611492
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 1,
+   "rating": 2,
+   "v": 4.010608969296839
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 1,
+   "rating": 2,
+   "v": 1
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 1,
+   "rating": 3,
+   "v": 1
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 1,
+   "rating": 3,
+   "v": 1.0507203746232234
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 1,
+   "rating": 4,
+   "v": 1
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 1,
+   "rating": 4,
+   "v": 1.8075566207325262
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 5,
+   "rating": 1,
+   "v": 8.341762369296838
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 5,
+   "rating": 1,
+   "v": 1.5968179979869215
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 5,
+   "rating": 2,
+   "v": 6.665995369296838
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 5,
+   "rating": 2,
+   "v": 5
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 5,
+   "rating": 3,
+   "v": 4.9902283692968386
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 5,
+   "rating": 3,
+   "v": 5
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 5,
+   "rating": 4,
+   "v": 3.3144613692968385
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 5,
+   "rating": 4,
+   "v": 8.129609559916112
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 6.4133,
+   "rating": 1,
+   "v": 8.806304468856837
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 6.4133,
+   "rating": 1,
+   "v": 2.0148987631935547
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 6.4133,
+   "rating": 2,
+   "v": 7.604209769076838
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 6.4133,
+   "rating": 2,
+   "v": 6.4133
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 6.4133,
+   "rating": 3,
+   "v": 6.402115069296838
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 6.4133,
+   "rating": 3,
+   "v": 6.4133
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 6.4133,
+   "rating": 4,
+   "v": 5.200020369516838
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 6.4133,
+   "rating": 4,
+   "v": 10.258113490812265
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 10,
+   "rating": 1,
+   "v": 9.985228369296838
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 10,
+   "rating": 1,
+   "v": 3.051248935571638
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 10,
+   "rating": 2,
+   "v": 9.985228369296838
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 10,
+   "rating": 2,
+   "v": 10
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 10,
+   "rating": 3,
+   "v": 9.985228369296838
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 10,
+   "rating": 3,
+   "v": 10
+  },
+  {
+   "fn": "next_difficulty",
+   "difficulty": 10,
+   "rating": 4,
+   "v": 9.985228369296838
+  },
+  {
+   "fn": "short_term_stability",
+   "stability": 10,
+   "rating": 4,
+   "v": 15.534307947166699
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 1,
+   "v": 0.9009170437205758
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 2,
+   "v": 27.24830860267503
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 3,
+   "v": 44.6453418734204
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 4,
+   "v": 82.74336079472907
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 1,
+   "v": 0.46595691931360417
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 2,
+   "v": 10.493198580769956
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 3,
+   "v": 16.785165581592878
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 4,
+   "v": 30.564036617765296
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 1,
+   "v": 0.3085914340303727
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 2,
+   "v": 2.429046163253772
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 3,
+   "v": 3.3761991407611767
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 4,
+   "v": 5.450383370731608
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 1,
+   "v": 3.9589247249704123
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 2,
+   "v": 188.85509793687572
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 3,
+   "v": 307.3979014580574
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 4,
+   "v": 566.9965296407956
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 1,
+   "v": 2.047567399794704
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 2,
+   "v": 74.68633798845167
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 3,
+   "v": 117.55959093523721
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 4,
+   "v": 211.4483578626058
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 1,
+   "v": 1.3560518880313601
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 2,
+   "v": 19.737472816020677
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 3,
+   "v": 26.191341563054003
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 4,
+   "v": 40.32476361344385
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 1,
+   "v": 10.65759172235849
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 2,
+   "v": 1318.7126622989076
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 3,
+   "v": 2126.4593653124502
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 4,
+   "v": 3895.3557452936884
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 1,
+   "v": 5.51213748354011
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 2,
+   "v": 540.7705460657108
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 3,
+   "v": 832.9074593709855
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 4,
+   "v": 1472.662380655919
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 1,
+   "v": 3.650548666868031
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 2,
+   "v": 166.35081446693877
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 3,
+   "v": 210.3272605037226
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 2,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 4,
+   "v": 306.63192619742205
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 1,
+   "v": 0.8516306565088784
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 2,
+   "v": 18.498872401783352
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 3,
+   "v": 30.096894582280264
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 4,
+   "v": 55.49557386315271
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 1,
+   "v": 0.4404658562802993
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 2,
+   "v": 7.3287990538466365
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 3,
+   "v": 11.523443721061916
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 4,
+   "v": 20.709357745176863
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 1,
+   "v": 0.29170935036479695
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 2,
+   "v": 1.952697442169181
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 3,
+   "v": 2.584132760507451
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 4,
+   "v": 3.966922247154405
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 1,
+   "v": 3.742344188175315
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 2,
+   "v": 129.23673195791716
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 3,
+   "v": 208.26526763870493
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 4,
+   "v": 381.33101976053047
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 1,
+   "v": 1.9355513152820103
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 2,
+   "v": 53.12422532563444
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 3,
+   "v": 81.7063939568248
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 4,
+   "v": 144.29890524173717
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 1,
+   "v": 1.281866480064546
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 2,
+   "v": 16.491648544013785
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 3,
+   "v": 20.794227708702667
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 4,
+   "v": 30.216509075629226
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 1,
+   "v": 10.074547816114823
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 2,
+   "v": 912.4751081992719
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 3,
+   "v": 1450.9729102083002
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 4,
+   "v": 2630.2371635291256
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 1,
+   "v": 5.210585476869306
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 2,
+   "v": 393.8470307104738
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 3,
+   "v": 588.6049729139903
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 4,
+   "v": 1015.1082537706124
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 1,
+   "v": 3.4508384311871003
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 2,
+   "v": 144.23387631129253
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 3,
+   "v": 173.5515070024817
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 5,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 4,
+   "v": 237.75461746494804
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 1,
+   "v": 0.8214432300582282
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 2,
+   "v": 6.832957467261117
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 3,
+   "v": 10.698964860760087
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.3,
+   "rating": 4,
+   "v": 19.16519128771757
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 1,
+   "v": 0.4248528313863961
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 2,
+   "v": 3.109599684615546
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 3,
+   "v": 4.507814573687305
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.7,
+   "rating": 4,
+   "v": 7.569785915058955
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 1,
+   "v": 0.2813692404922815
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 2,
+   "v": 1.3175658140563937
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 3,
+   "v": 1.5280442535024836
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 1,
+   "retrievability": 0.95,
+   "rating": 4,
+   "v": 1.9889740823848014
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 1,
+   "v": 3.609690743785854
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 2,
+   "v": 49.745577319305724
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 3,
+   "v": 76.08842254623498
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.3,
+   "rating": 4,
+   "v": 133.7770065868435
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 1,
+   "v": 1.8669425674346083
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 2,
+   "v": 24.37474177521148
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 3,
+   "v": 33.9021313189416
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.7,
+   "rating": 4,
+   "v": 54.76630174724573
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 1,
+   "v": 1.2364286487808163
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 2,
+   "v": 12.163882848004594
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 3,
+   "v": 13.59807590290089
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 10,
+   "retrievability": 0.95,
+   "rating": 4,
+   "v": 16.73883635854308
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 1,
+   "v": 9.717439169428435
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 2,
+   "v": 370.82503606642393
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 3,
+   "v": 550.3243034027668
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.3,
+   "rating": 4,
+   "v": 943.4123878430418
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 1,
+   "v": 5.025887844573375
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 2,
+   "v": 197.94901023682462
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 3,
+   "v": 262.8683243046635
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.7,
+   "rating": 4,
+   "v": 405.03608459020415
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 1,
+   "v": 3.3285178799735333
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 2,
+   "v": 114.7446254370975
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 3,
+   "v": 124.51716900082724
+  },
+  {
+   "fn": "next_stability",
+   "difficulty": 9,
+   "stability": 100,
+   "retrievability": 0.95,
+   "rating": 4,
+   "v": 145.91820582164934
+  }
+ ],
+ "sequences": [
+  {
+   "name": "steady good",
+   "steps": [
+    {
+     "rating": 3,
+     "elapsedDays": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "intervalDays": 2,
+     "reps": 1,
+     "lapses": 0,
+     "mastery": "learning"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 2,
+     "stability": 10.964332335820698,
+     "difficulty": 2.111214235785395,
+     "intervalDays": 11,
+     "reps": 2,
+     "lapses": 0,
+     "mastery": "review"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 11,
+     "stability": 46.28021728755693,
+     "difficulty": 2.1043313908464483,
+     "intervalDays": 46,
+     "reps": 3,
+     "lapses": 0,
+     "mastery": "mastered"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 46,
+     "stability": 162.86220163874916,
+     "difficulty": 2.0974554287524403,
+     "intervalDays": 163,
+     "reps": 4,
+     "lapses": 0,
+     "mastery": "mastered"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 163,
+     "stability": 497.4471936002745,
+     "difficulty": 2.0905863426205262,
+     "intervalDays": 497,
+     "reps": 5,
+     "lapses": 0,
+     "mastery": "mastered"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 497,
+     "stability": 1345.52877754259,
+     "difficulty": 2.083724125574744,
+     "intervalDays": 1346,
+     "reps": 6,
+     "lapses": 0,
+     "mastery": "mastered"
+    }
+   ]
+  },
+  {
+   "name": "lapse then recover",
+   "steps": [
+    {
+     "rating": 3,
+     "elapsedDays": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "intervalDays": 2,
+     "reps": 1,
+     "lapses": 0,
+     "mastery": "learning"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 2,
+     "stability": 10.964332335820698,
+     "difficulty": 2.111214235785395,
+     "intervalDays": 11,
+     "reps": 2,
+     "lapses": 0,
+     "mastery": "review"
+    },
+    {
+     "rating": 1,
+     "elapsedDays": 11,
+     "stability": 1.5383372358832694,
+     "difficulty": 7.392238132342694,
+     "intervalDays": 2,
+     "reps": 3,
+     "lapses": 1,
+     "mastery": "lapsed"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 2,
+     "stability": 4.8762601340710345,
+     "difficulty": 7.38007426350719,
+     "intervalDays": 5,
+     "reps": 4,
+     "lapses": 1,
+     "mastery": "review"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 5,
+     "stability": 12.31168556981895,
+     "difficulty": 7.3679225585405215,
+     "intervalDays": 12,
+     "reps": 5,
+     "lapses": 1,
+     "mastery": "review"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 12,
+     "stability": 27.8800003276198,
+     "difficulty": 7.35578300527882,
+     "intervalDays": 28,
+     "reps": 6,
+     "lapses": 1,
+     "mastery": "mastered"
+    }
+   ]
+  },
+  {
+   "name": "always again",
+   "steps": [
+    {
+     "rating": 1,
+     "elapsedDays": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "intervalDays": 1,
+     "reps": 1,
+     "lapses": 1,
+     "mastery": "learning"
+    },
+    {
+     "rating": 1,
+     "elapsedDays": 1,
+     "stability": 0.10088578982099844,
+     "difficulty": 8.806304468856837,
+     "intervalDays": 1,
+     "reps": 2,
+     "lapses": 2,
+     "mastery": "learning"
+    },
+    {
+     "rating": 1,
+     "elapsedDays": 1,
+     "stability": 0.05503453011833104,
+     "difficulty": 9.592868765339693,
+     "intervalDays": 1,
+     "reps": 3,
+     "lapses": 3,
+     "mastery": "learning"
+    },
+    {
+     "rating": 1,
+     "elapsedDays": 1,
+     "stability": 0.033369187408475304,
+     "difficulty": 9.85140710095639,
+     "intervalDays": 1,
+     "reps": 4,
+     "lapses": 4,
+     "mastery": "learning"
+    }
+   ]
+  },
+  {
+   "name": "easy run",
+   "steps": [
+    {
+     "rating": 4,
+     "elapsedDays": 0,
+     "stability": 8.2956,
+     "difficulty": 1,
+     "intervalDays": 8,
+     "reps": 1,
+     "lapses": 0,
+     "mastery": "review"
+    },
+    {
+     "rating": 4,
+     "elapsedDays": 8,
+     "stability": 65.62422616189994,
+     "difficulty": 1,
+     "intervalDays": 66,
+     "reps": 2,
+     "lapses": 0,
+     "mastery": "review"
+    },
+    {
+     "rating": 4,
+     "elapsedDays": 66,
+     "stability": 396.7750233497581,
+     "difficulty": 1,
+     "intervalDays": 397,
+     "reps": 3,
+     "lapses": 0,
+     "mastery": "mastered"
+    },
+    {
+     "rating": 4,
+     "elapsedDays": 397,
+     "stability": 1874.9169554074524,
+     "difficulty": 1,
+     "intervalDays": 1875,
+     "reps": 4,
+     "lapses": 0,
+     "mastery": "mastered"
+    }
+   ]
+  },
+  {
+   "name": "mixed",
+   "steps": [
+    {
+     "rating": 3,
+     "elapsedDays": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "intervalDays": 2,
+     "reps": 1,
+     "lapses": 0,
+     "mastery": "learning"
+    },
+    {
+     "rating": 2,
+     "elapsedDays": 2,
+     "stability": 7.513320366762569,
+     "difficulty": 4.752858488532557,
+     "intervalDays": 8,
+     "reps": 2,
+     "lapses": 0,
+     "mastery": "review"
+    },
+    {
+     "rating": 4,
+     "elapsedDays": 8,
+     "stability": 42.9010613764013,
+     "difficulty": 2.984736681491411,
+     "intervalDays": 43,
+     "reps": 3,
+     "lapses": 0,
+     "mastery": "mastered"
+    },
+    {
+     "rating": 1,
+     "elapsedDays": 43,
+     "stability": 2.7859838439553024,
+     "difficulty": 7.679359020293631,
+     "intervalDays": 3,
+     "reps": 4,
+     "lapses": 1,
+     "mastery": "lapsed"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 3,
+     "stability": 7.214326041976099,
+     "difficulty": 7.666908030570175,
+     "intervalDays": 7,
+     "reps": 5,
+     "lapses": 1,
+     "mastery": "review"
+    },
+    {
+     "rating": 2,
+     "elapsedDays": 7,
+     "stability": 12.700076426821512,
+     "difficulty": 8.436413197903544,
+     "intervalDays": 13,
+     "reps": 6,
+     "lapses": 1,
+     "mastery": "review"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 13,
+     "stability": 24.378508003090577,
+     "difficulty": 8.423205154002478,
+     "intervalDays": 24,
+     "reps": 7,
+     "lapses": 1,
+     "mastery": "mastered"
+    }
+   ]
+  },
+  {
+   "name": "same day repeats",
+   "steps": [
+    {
+     "rating": 3,
+     "elapsedDays": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "intervalDays": 2,
+     "reps": 1,
+     "lapses": 0,
+     "mastery": "learning"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "intervalDays": 2,
+     "reps": 2,
+     "lapses": 0,
+     "mastery": "learning"
+    },
+    {
+     "rating": 3,
+     "elapsedDays": 0,
+     "stability": 2.3065,
+     "difficulty": 2.1043313908464483,
+     "intervalDays": 2,
+     "reps": 3,
+     "lapses": 0,
+     "mastery": "learning"
+    }
+   ]
+  }
+ ],
+ "grades": [
+  {
+   "input": {
+    "correct": false,
+    "editDistance": 4
+   },
+   "rating": 1
+  },
+  {
+   "input": {
+    "correct": false,
+    "editDistance": 1
+   },
+   "rating": 2
+  },
+  {
+   "input": {
+    "correct": true,
+    "hintsUsed": 1
+   },
+   "rating": 2
+  },
+  {
+   "input": {
+    "correct": true,
+    "replays": 3
+   },
+   "rating": 2
+  },
+  {
+   "input": {
+    "correct": true
+   },
+   "rating": 3
+  },
+  {
+   "input": {
+    "correct": true,
+    "latencyMs": 800,
+    "medianLatencyMs": 4000
+   },
+   "rating": 4
+  },
+  {
+   "input": {
+    "correct": true,
+    "latencyMs": 3800,
+    "medianLatencyMs": 4000
+   },
+   "rating": 3
+  }
+ ],
+ "mastery": [
+  {
+   "input": {
+    "intervalDays": 1,
+    "rating": 3,
+    "reps": 1,
+    "previous": null
+   },
+   "mastery": "learning"
+  },
+  {
+   "input": {
+    "intervalDays": 5,
+    "rating": 3,
+    "reps": 2,
+    "previous": "learning"
+   },
+   "mastery": "review"
+  },
+  {
+   "input": {
+    "intervalDays": 40,
+    "rating": 3,
+    "reps": 5,
+    "previous": "review"
+   },
+   "mastery": "mastered"
+  },
+  {
+   "input": {
+    "intervalDays": 1,
+    "rating": 1,
+    "reps": 6,
+    "previous": "mastered"
+   },
+   "mastery": "lapsed"
+  },
+  {
+   "input": {
+    "intervalDays": 1,
+    "rating": 1,
+    "reps": 2,
+    "previous": "learning"
+   },
+   "mastery": "learning"
+  }
+ ]
+}
